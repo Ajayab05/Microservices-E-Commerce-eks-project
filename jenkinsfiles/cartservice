@@ -1,4 +1,4 @@
-  pipeline {
+pipeline {
     agent any 
 
     stages {
@@ -50,7 +50,7 @@
             }
             steps {
                 dir('kubernetes-files') {
-                    withCredentials([string(credentialsId: 'Git', variable: 'Git')]) {
+                    withCredentials([string(credentialsId: 'my-git-pattoken', variable: 'git_token')]) {
                         sh '''
                             git config user.email "${GIT_EMAIL}"
                             git config user.name "${GIT_USER_NAME}"
