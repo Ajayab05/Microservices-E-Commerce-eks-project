@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "ajay199701-terraform-state "
+    bucket = "ajay199701-terraform-state"
     key    = "k8/terraform.tfstate"
     region = "ap-south-1"
   }
