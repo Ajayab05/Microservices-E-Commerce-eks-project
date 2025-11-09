@@ -46,7 +46,7 @@ pipeline {
                 GIT_USER_NAME = "Ajayab05"
                 IMAGE_NAME = "cartservice"
                 REPO_URL = "536346448099.dkr.ecr.ap-south-1.amazonaws.com/adservice"
-                YAML_FILE = "cartservice.yaml"
+                YAML_FILE = "adservice.yaml"
             }
             steps {
                 dir('kubernetes-files') {
