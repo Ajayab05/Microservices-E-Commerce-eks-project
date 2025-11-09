@@ -44,7 +44,7 @@ pipeline {
                 GIT_REPO_NAME = "Microservices-E-Commerce-eks-project"
                 GIT_EMAIL = "ajayab05@gmail.com"
                 GIT_USER_NAME = "Ajayab05"
-                IMAGE_NAME = "adsercheckoutservicevice"
+                IMAGE_NAME = "checkoutservicevice"
                 REPO_URL = "536346448099.dkr.ecr.ap-south-1.amazonaws.com/checkoutservice"
                 YAML_FILE = "checkoutservice.yaml"
             }
